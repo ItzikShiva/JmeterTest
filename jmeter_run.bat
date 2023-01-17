@@ -1,0 +1,1 @@
+jmeter -n -t C:/apache-jmeter-5.5/bin/examples/jmeter_run/loginTestNoUI.jmx -l C:/apache-jmeter-5.5/bin/examples/jmeter_run/output/resultsfile.jtl -Jthreads=25 -Jloops=1 -Jrampup=10  -e -o C:/apache-jmeter-5.5/bin/examples/jmeter_run/output/report/
